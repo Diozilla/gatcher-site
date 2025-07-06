@@ -1,0 +1,165 @@
+body {
+    background: #000;
+    color: #E0E0E0;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+    background: #111;
+    border-bottom: 2px solid #FFD700;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    color: #FFD700;
+    font-size: 2.5rem;
+    margin: 0.2rem 0 0.5rem 0;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    color: #AAA;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+main {
+    flex: 1;
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background: #181818;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    padding: 1.5rem 1.2rem;
+    box-shadow: 0 2px 12px 0 #0008;
+}
+
+h2 {
+    color: #FFD700;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.highlight {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #FFD700, #FFA500);
+    color: #000;
+    font-size: 1.1rem;
+    padding: 16px 32px;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
+}
+
+.btn-secondary {
+    background: #333;
+    color: #FFD700;
+    border-color: #FFD700;
+}
+
+.btn-secondary:hover {
+    background: #FFD700;
+    color: #000;
+    transform: translateY(-1px);
+}
+
+.download-button {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.download-note {
+    text-align: center;
+    color: #AAA;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.donation-links {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.donation-note {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+.screenshot-placeholder {
+    background: #222;
+    color: #FFD700;
+    border: 2px dashed #FFD700;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    color: #888;
+    background: #111;
+    padding: 1rem 0;
+    font-size: 0.95rem;
+    border-top: 1px solid #222;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 0 0.2rem;
+    }
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+    section {
+        padding: 1rem 0.5rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.1rem;
+    }
+    .btn {
+        display: block;
+        margin: 8px auto;
+        max-width: 250px;
+    }
+} 
